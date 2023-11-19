@@ -46,6 +46,17 @@ body {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  overflow-x: hidden;
+}
+
+.react-horizontal-scrolling-menu--scroll-container {
+  display: flex;
+  overflow-x: hidden;
+}
+
+.scroll-menu-container{
+  display: flex;
+  overflow-x: hidden;
 }
 
 .detail-image {
@@ -115,6 +126,9 @@ body {
 
   .react-horizontal-scrolling-menu--scroll-container {
     width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .left-arrow,
